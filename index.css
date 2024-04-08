@@ -1,0 +1,968 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+  
+}
+
+body{
+    
+    background-image: linear-gradient(to right, #0c0606fa, #140F2E, #17142cfb, #0c0606 );
+}
+
+
+
+
+.container{
+    background-image: linear-gradient(to left, #0c06068f, #140F2E,#0c06068f);
+    margin: auto;
+    max-width: 1140px;
+    box-shadow: 0 0 40px 0 #4b6e94;
+    height: 100%;
+    position: relative;  
+    
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    position: fixed;
+    width: 1140px;
+    height: 80px;
+    z-index: 1;
+}
+
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+nav li  {
+ 
+    width:100% ;
+    margin: 35%;
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+li a{
+    font-weight: 300;
+    text-decoration: none;
+    margin: auto;
+    text-align: center;
+    transition: 0.3s; 
+    color:white;  
+    
+    
+}
+nav a:hover{
+    color:#1c71c5;
+    text-decoration: underline;
+    
+}
+
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    
+    
+}
+
+ .logo img{
+    width: 280px;    
+    height: 280px;
+    margin-top: 200px;
+    position: relative;
+    box-shadow: 0 0 40px 0 #4b6e94;
+    box-shadow: 0 0 40px 0 #204d7e;
+    border-radius: 50%;
+    transition: 0.3s;  
+    border: 2px solid #dbdbdc;
+
+}
+
+.logo img:hover{
+    transform: scale(1.05,1.05);
+}
+
+
+h1{
+    padding-top: 60px;
+    font-weight: 400;
+    text-align: center;
+  
+}
+
+
+
+
+
+h5{/*Sobre*/
+    text-align: center;
+    margin-top: 250px;
+    font-weight: 300;
+    margin-bottom: 150px;
+    font-size: 2rem;
+    text-align: center;
+
+}
+
+.txt_sobre{
+    font-size: 2rem;
+    margin: 0 auto;
+    width: 90%;
+    padding-bottom: 250px;
+    font-weight: 300;
+    text-align: center;
+    }
+
+
+
+h4{/*Sobre*/
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    background-color: #05529e63;
+    border-radius: 20px;
+    padding-bottom: 5px;
+}
+
+.etapas{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 250px;
+  
+    
+      
+}
+
+.cardS{
+    
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+   
+    
+    
+   
+}
+.cardS:hover{
+    box-shadow: 0 0 20px 0 #05519e;
+}
+
+
+.cardS img{
+
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+  
+}
+
+.cardS span{
+    margin: 0 auto;
+    font-size: 2rem;
+    text-align: center;
+    
+}
+
+
+
+
+
+
+
+
+
+.slideshow-container {
+    
+    width:100%; 
+    position: relative;
+    margin: auto;
+    padding-top: 280px;
+   
+}
+
+.slideshow {
+    display: none;
+    margin: auto;
+    
+}
+
+
+.slideshow img {
+    width: 100%;
+    
+  
+    
+}
+
+.prev,
+.next {
+    display: flex;
+    cursor: pointer;
+    position: absolute;
+    opacity: 0.4;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 26px;
+    color: white;
+    font-weight: bold;
+    font-size: 58px;
+    transition: 0.6s ease;
+   
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+    color: white;
+    opacity: 1;
+}
+
+
+.paginacao { 
+  
+    width:100%; 
+    float:left;
+    text-align: center;
+
+}
+
+.dot {
+
+    cursor: pointer;
+    height: 13px;
+    width: 13px;
+    margin:  5px;
+    border-radius: 50px;
+    background-color: #063261;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.ativo,
+.dot:hover {
+    background-color: white;
+    box-shadow: 0 0 10px 0 black;
+}
+
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 2s;
+    animation-name: fade;
+    animation-duration: 2s;
+}
+
+h6{
+    text-align: center;
+    margin-top: 250px;
+    font-weight: 300;
+    margin-bottom: 150px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+
+.portifolio{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    padding-top: 10px;
+        
+}
+
+.cards{
+ 
+    margin-bottom: 100px;
+    transition: 0.3s;
+    text-align: center;
+}   
+
+
+.cards:hover{
+    transform: scale(1.1, 1.1);
+}
+
+
+.cards img{    
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;    
+    box-shadow: 0 0 20px 0 #05519e;
+    box-shadow: 0 0 30px 0 #05519e;
+    margin-bottom: 30px;
+    
+}
+
+.cards span{
+   
+    font-size: 1.7rem;
+    font-weight: 100;
+   
+    
+    
+}
+
+
+
+.textoS{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 2rem;
+    padding: 30px;
+}
+
+.textoS h3{
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 0px;
+    text-align: center;
+    
+
+    font-weight: 300;    
+
+}
+
+
+
+
+.telas{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-top: 150px;
+    padding: 30px;
+}
+
+
+
+.tela img{
+    
+    width: 320px;
+    height: 300px;
+    
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 20px 0 #1c71c5;
+    box-shadow: 0 0 30px 0 #1c71c5;
+    box-shadow: 0 0 40px 0 #1c71c5;
+
+}
+
+.tela span{
+    font-size: 2rem;
+    font-weight: 200;
+    text-align: center;
+    
+}
+
+
+
+
+
+
+
+
+
+
+@keyframes dominio {
+    from{background-color: none;}
+    to{ background-color: orange; }
+    
+}
+
+.texto {    
+    margin: 0 auto;
+    padding: 30px;
+    font-size: 24px;
+    width: 100%;
+    background-color: none;
+    animation-name: dominio;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    margin-top: 250px;
+
+    
+    
+}
+
+.texto h3{
+    color: black;
+    font-weight: 600;
+    text-align: center;
+    
+    
+ 
+   
+    
+   
+    
+}
+
+
+footer{
+    margin-top: 300px;
+    padding: 30px;
+    box-shadow: 0 0 10px 0 #4b6e94;
+    border-radius: 90px 90px 0 0;  
+    text-align: center;
+   
+}
+
+.whats img{
+    position: fixed;
+    width: 70px;
+    bottom: 50px;
+    right: 30px;
+    z-index: 9999;
+}
+
+
+
+
+.redesSociais{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    margin-top: 50px;
+    height: 50px;
+    width: 100%;
+   
+    
+}
+
+
+.redesSociais img{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    padding: 2px;
+    background-color: rgba(255, 255, 255, 0.336);
+    border-radius: 50%;
+    transition: 0.3s;
+    border-radius: 10px;
+
+}  
+
+.redesSociais img:hover{
+    
+    background-color: rgba(255, 255, 255, 0.959);
+    box-shadow: 0 0 40px 0 #204d7e;
+      
+}
+   
+
+
+.corpoRoda{
+    width: 100%;
+    display: flex;  
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+    height: 100px;
+   
+}
+
+.corpoRoda a {
+    text-decoration: none;
+    transition: 0.3s;
+    color: rgba(255, 255, 255, 0.418);
+    
+  
+}
+
+.corpoRoda a:hover {
+    text-decoration: underline;
+   
+}
+
+.rodape{
+    margin-top: 30px;
+    width: 100%;
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.404);
+    height: 10px;
+   
+}
+
+
+
+
+
+
+
+
+
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+
+@media
+(width >= 350px) and 
+(width <= 750px){ 
+
+    .container{
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav{
+       
+        width: 100%;
+        height: 80px;     
+          
+        background: none; 
+        position: fixed;
+        background-color: rgb(0, 0, 0);
+        
+    }
+
+    nav ul li {
+        display: flex;      
+        margin: auto; 
+    
+    }
+
+    nav a{
+        margin: auto;
+        padding: 20px;
+    }
+
+.logo{
+    padding-top: 100px;
+}
+
+
+
+
+
+.slideshow-container{
+    width: 100%;
+  
+        
+}
+
+.slideshow-container img{
+    width: 100%;
+
+    
+}
+
+
+
+
+
+.portifolio{
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.cards img{
+    
+
+}
+
+
+
+.cards span{
+    margin-top: 10px;
+    font-size: 2rem;
+   
+}
+
+
+.texto{
+    margin-top: 100px;
+}
+.texto h3{
+    font-weight: 600;
+    font-size: 22px;
+   
+}
+}
+
+
+/*
+.legenda   { font-size:2em; padding:8px; }
+.paginacao { margin:10px 0; }
+.dot       { width:18px; height:18px; }
+  */ 
+
+
+@media  
+(width >=760px) and
+(width <=1140px ){
+
+    .container{
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav{
+       
+        width: 100%;
+        height: 80px;    
+        margin: 0 auto;          
+        background: none; 
+        position: fixed;
+        background-color: rgb(14, 13, 13);
+        
+    }
+
+    nav ul li {
+        display: flex;      
+        margin: auto; 
+    
+    }
+
+    nav a{
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+.logo{
+    padding-top: 100px;
+}
+
+
+
+
+
+.portifolio{
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.portifolio img{
+    width: 100%;
+    
+    
+}
+
+
+
+.portifolio span{
+    font-size: 2rem;
+   
+}
+
+.cards{
+   
+    width: 400px;
+    height: 400px;
+    transition: 0.3s;
+    margin-top: 0px;
+    border-radius: 10px;
+}
+
+.cards:hover{
+    box-shadow: 0 0 20px 0 #05519e;
+    transform: scale(1.1, 1.1);
+}
+.cards img{
+    
+    border-radius: 10px;
+    
+}
+
+.cards span{
+    font-size: 2rem;
+    font-weight: 300;
+
+}
+
+
+
+
+.slideshow-container{
+    width: 100%;
+    
+}
+
+.slideshow-container img{
+    width: 100%;
+    height: 550px;
+}
+
+
+
+
+.texto{
+    margin-top: 230px;
+    
+}
+.texto h3{
+    font-weight: 600;
+    font-size: 22px;
+   
+}
+
+
+footer{
+    margin-top: 150px;
+}
+
+}
+
+@media
+(width >= 350px) and 
+(width <= 750px){ 
+
+    .container{
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav{
+       
+        width: 100%;
+        height: 80px;     
+          
+        background: none; 
+        position: fixed;
+        background-color: rgb(0, 0, 0);
+        
+    }
+
+    nav ul li {
+        display: flex;      
+        margin: auto; 
+    
+    }
+
+    nav a{
+        margin: auto;
+        padding: 20px;
+    }
+
+.logo{
+    padding-top: 100px;
+}
+
+
+
+
+
+.slideshow-container{
+    width: 100%;
+    
+}
+
+.slideshow-container img{
+    width: 100%;
+    height: 320px;
+}
+
+
+
+
+
+.portifolio{
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.portifolio img{
+    
+    width: 100%;
+    padding: 5px;
+}
+
+
+
+.cards span{
+    margin-top: 10px;
+    font-size: 2rem;
+   
+}
+
+
+.texto{
+    margin-top: 100px;
+}
+.texto h3{
+    font-weight: 600;
+    font-size: 22px;
+   
+}
+}
+
+
+/*
+.legenda   { font-size:2em; padding:8px; }
+.paginacao { margin:10px 0; }
+.dot       { width:18px; height:18px; }
+  */ 
+
+
+@media  
+(width >=752px) and
+(width <=1140px ){
+
+    .container{
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav{
+       
+        width: 100%;
+        height: 80px;    
+        margin: 0 auto;          
+        background: none; 
+        position: fixed;
+        background-color: rgb(14, 13, 13);
+        
+    }
+
+    nav ul li {
+        display: flex;      
+        margin: auto; 
+    
+    }
+
+    nav a{
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+.logo{
+    padding-top: 100px;
+}
+
+
+
+
+
+.portifolio{
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.portifolio img{
+    width: 100%;
+    
+    
+}
+
+
+
+.portifolio span{
+    font-size: 2rem;
+   
+}
+
+.cards{
+   
+    width: 400px;
+    height: 400px;
+    transition: 0.3s;
+    margin-top: 0px;
+    border-radius: 10px;
+}
+
+.cards:hover{
+    box-shadow: 0 0 20px 0 #05519e;
+    transform: scale(1.1, 1.1);
+}
+.cards img{
+    
+    border-radius: 10px;
+    
+}
+
+.cards span{
+    font-size: 2rem;
+    font-weight: 300;
+
+}
+
+
+
+
+.slideshow-container{
+    width: 100%;
+    
+}
+
+.slideshow-container img{
+    width: 100%;
+    height: 550px;
+}
+
+
+
+
+.texto{
+    margin-top: 230px;
+    
+}
+.texto h3{
+    font-weight: 600;
+    font-size: 22px;
+   
+}
+
+
+footer{
+    margin-top: 150px;
+}
+
+}
