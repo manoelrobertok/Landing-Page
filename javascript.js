@@ -63,5 +63,28 @@ let slides = document.querySelectorAll('.slideshow');
 
 
 
+        window.sr = ScrollReveal({reset:true});
+
+        sr.reveal('.logo',{duration:4000,
+            rotate: {x:0, y:0, z:0}});
+
+        sr.reveal('.sobre',{duration:2000});
+        sr.reveal('.txt_sobre',{duration:2000});
+
+        sr.reveal('.etapas',{duration:4000,
+            rotate: {x:0, y:80, z:0}});
+
+        sr.reveal('.portifolio',{duration:4000,
+        rotate: {x:0, y:80, z:0}});
+
+        sr.reveal('.tela', {  duration: 4000,
+        rotate: {x:0, y:80, z:0} });
+
+        sr.reveal('.redesSociais', {  duration: 3000,
+            rotate: {x:100, y:0, z:0} });
+       
+
+
+
 
         
