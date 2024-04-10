@@ -443,7 +443,7 @@ h6{
 
 .contato{
     width: 600px;   
-    height: 500px;
+    height: 400px;
     margin: 0 auto;
     text-align: center;
     border: 2px solid orange;   
@@ -779,6 +779,12 @@ h4{/*Sobre*/
     font-size: 22px;
    
 }
+
+.contato{
+    width: 90%;
+    height: 360px;
+    font-size: 12px;
+}
 }
 
 
@@ -918,115 +924,26 @@ h1{
    
 }
 
+.contato{
+    width: 70%;
+    height: 500px;
+    font-size: 18px;
+}
+
 
 footer{
     margin-top: 150px;
 }
 
-}
 
-@media
-(width >= 350px) and 
-(width <= 750px){ 
-
-    .container{
-        display: block;
-        justify-content: center;
-        align-items: center;
-    }
-
-    nav{
-       
-        width: 100%;
-        height: 80px;     
-          
-        background: none; 
-        position: fixed;
-        background-color: rgb(0, 0, 0);
-        
-    }
-
-    nav ul li {
-        display: flex;      
-        margin: auto; 
-    
-    }
-
-    nav a{
-        margin: auto;
-        padding: 20px;
-    }
-
-.logo{
-    padding-top: 100px;
 }
 
 
 
 
 
-.slideshow-container{
-    width: 100%;
-    
-}
-
-.slideshow-container img{
-    width: 100%;
-    height: 320px;
-}
 
 
-
-
-
-.portifolio{
-    flex-direction: column;
-    margin: 0 auto;
-    width: 100%;
-}
-
-.portifolio img{
-    
-    width: 100%;
-    padding: 5px;
-}
-
-.telas{
-        
-    flex-direction: column;
-    margin: 0 auto;
-    padding-top: 150px;
-    text-align: center;
-
-
-   
-}
-.telas img{
-    margin-top: 80px;
-    width: 100%;
-}
-
-.cards {
-    width: 90%;
-}
-
-
-.cards span{
-    margin-top: 10px;
-    font-size: 2rem;
-   
-}
-
-
-.texto{
-    margin-top: 100px;
-}
-.texto h3{
-    font-weight: 600;
-    font-size: 22px;
-   
-}
-}
 
 
 /*
@@ -1035,136 +952,3 @@ footer{
 .dot       { width:18px; height:18px; }
   */ 
 
-
-@media  
-(width >=752px) and
-(width <=1140px ){
-
-    .container{
-        display: block;
-        justify-content: center;
-        align-items: center;
-    }
-
-    nav{
-       
-        width: 100%;
-        height: 80px;    
-        margin: 0 auto;          
-        background: none; 
-        position: fixed;
-        background-color: rgb(14, 13, 13);
-        
-    }
-
-    nav ul li {
-        display: flex;      
-        margin: auto; 
-    
-    }
-
-    nav a{
-        margin: 0 auto;
-        padding: 20px;
-    }
-
-.logo{
-    padding-top: 100px;
-}
-
-
-
-
-
-.portifolio{
-    flex-direction: column;
-    margin: 0 auto;
-    width: 100%;
-}
-
-.portifolio img{
-    width: 100%;
-    
-    
-}
-
-
-
-.portifolio span{
-    font-size: 2rem;
-   
-}
-
-
-.telas{
-        
-    flex-direction: column;
-    margin: 0 auto;
-    padding-top: 150px;
-    text-align: center;
-
-
-   
-}
-.telas img{
-    margin-top: 80px;
-    width: 100%;
-}
-
-.cards{
-   
-    width: 400px;
-    height: 400px;
-    transition: 0.3s;
-    margin-top: 0px;
-    border-radius: 10px;
-}
-
-.cards:hover{
-    box-shadow: 0 0 20px 0 #05519e;
-    transform: scale(1.1, 1.1);
-}
-.cards img{
-    
-    border-radius: 10px;
-    
-}
-
-.cards span{
-    font-size: 2rem;
-    font-weight: 300;
-
-}
-
-
-
-
-.slideshow-container{
-    width: 100%;
-    
-}
-
-.slideshow-container img{
-    width: 100%;
-    height: 550px;
-}
-
-
-
-
-.texto{
-    margin-top: 230px;
-    
-}
-.texto h3{
-    font-weight: 600;
-    font-size: 22px;
-   
-}
-
-
-footer{
-    margin-top: 150px;
-}
-
-}
