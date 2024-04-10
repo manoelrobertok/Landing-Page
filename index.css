@@ -70,7 +70,7 @@ li a{
     
 }
 nav a:hover{
-    color:#1c71c5;
+    color:orange;
     text-decoration: underline;
     
 }
@@ -178,7 +178,10 @@ h4{/*Sobre*/
    
 }
 .cardS:hover{
-    box-shadow: 0 0 20px 0 #05519e;
+    
+    box-shadow: 0 0 20px 0 #1c71c5;
+    box-shadow: 0 0 30px 0 #1c71c5;
+    box-shadow: 0 0 40px 0 #1c71c5;
 }
 
 
@@ -234,7 +237,7 @@ h4{/*Sobre*/
     cursor: pointer;
     position: absolute;
     opacity: 0.4;
-    top: 50%;
+    top: 70%;
     width: auto;
     margin-top: -22px;
     padding: 26px;
@@ -356,7 +359,7 @@ h6{
 .textoS h3{
     margin: 0 auto;
     width: 100%;
-    margin-top: 0px;
+    margin-top: 10px;
     text-align: center;
     
 
@@ -372,15 +375,15 @@ h6{
     justify-content:space-evenly;
     align-items: center;
     margin-top: 150px;
-    padding: 30px;
+    padding: 20px;
 }
 
 
 
 .tela img{
     
-    width: 320px;
-    height: 300px;
+    width:95%;
+    height: 250px;
     
     border-radius: 10px;
     margin-bottom: 30px;
@@ -422,6 +425,9 @@ h6{
     animation-duration: 2s;
     animation-iteration-count: infinite;
     margin-top: 250px;
+    margin-bottom: 250px;
+
+    
 
     
     
@@ -430,19 +436,60 @@ h6{
 .texto h3{
     color: black;
     font-weight: 600;
-    text-align: center;
-    
-    
- 
-   
-    
-   
-    
+    text-align: center;    
 }
 
 
+
+.contato{
+    width: 600px;   
+    height: 500px;
+    margin: 0 auto;
+    text-align: center;
+    border: 2px solid orange;   
+    color: white;
+    margin-bottom: 350px;
+    font-family: 'poppins', sans-serif;
+    
+    
+}
+
+.contato h1{
+    font-size: 2rem;
+    
+    
+}
+
+.contato p{
+    font-size: 1.5rem;
+    margin: 15px;
+}
+
+.contato img{
+    display: flex;
+    margin: 0 auto;
+    width: 40px;
+}
+
+.contato span{
+    font-size: 1.5rem;
+    margin: 50px;
+    color: orange;
+  
+    
+   
+}
+
+.contato h2{
+    color: white;
+    font-weight: 300;
+    
+}
+ 
+
+
 footer{
-    margin-top: 300px;
+    
     padding: 30px;
     box-shadow: 0 0 10px 0 #4b6e94;
     border-radius: 90px 90px 0 0;  
@@ -653,6 +700,7 @@ h5{/*Sobre*/
     
     
     .telas{
+        
         flex-direction: column;
         margin: 0 auto;
         padding-top: 150px;
@@ -663,6 +711,7 @@ h5{/*Sobre*/
     }
     .telas img{
         margin-top: 80px;
+        width: 100%;
     }
     
     .textoS h3{
@@ -803,6 +852,21 @@ h1{
    
 }
 
+.telas{
+        
+    flex-direction: column;
+    margin: 0 auto;
+    padding-top: 150px;
+    text-align: center;
+
+
+   
+}
+.telas img{
+    margin-top: 80px;
+    width: 100%;
+}
+
 .cards{
    
     width: 400px;
@@ -927,6 +991,24 @@ footer{
     padding: 5px;
 }
 
+.telas{
+        
+    flex-direction: column;
+    margin: 0 auto;
+    padding-top: 150px;
+    text-align: center;
+
+
+   
+}
+.telas img{
+    margin-top: 80px;
+    width: 100%;
+}
+
+.cards {
+    width: 90%;
+}
 
 
 .cards span{
@@ -1011,6 +1093,22 @@ footer{
 .portifolio span{
     font-size: 2rem;
    
+}
+
+
+.telas{
+        
+    flex-direction: column;
+    margin: 0 auto;
+    padding-top: 150px;
+    text-align: center;
+
+
+   
+}
+.telas img{
+    margin-top: 80px;
+    width: 100%;
 }
 
 .cards{

@@ -71,7 +71,7 @@ let slides = document.querySelectorAll('.slideshow');
         sr.reveal('.sobre',{duration:2000});
         sr.reveal('.txt_sobre',{duration:2000});
 
-        sr.reveal('.etapas',{duration:4000,
+        sr.reveal('.etapas',{duration:3000,
             rotate: {x:0, y:80, z:0}});
 
         sr.reveal('.portifolio',{duration:4000,
@@ -81,6 +81,9 @@ let slides = document.querySelectorAll('.slideshow');
         rotate: {x:0, y:80, z:0} });
 
         sr.reveal('.redesSociais', {  duration: 3000,
+            rotate: {x:100, y:0, z:0} });
+
+        sr.reveal('.contato', {  duration: 3000,
             rotate: {x:100, y:0, z:0} });
        
 
