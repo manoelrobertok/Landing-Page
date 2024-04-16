@@ -122,6 +122,107 @@ h1{
 
 }
 
+
+
+
+.container1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    width: 100%;
+    padding: 40px;
+    
+
+}
+
+.cards1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 600px;
+    
+    margin: 20px;
+    padding: 40px;
+    background-color: white;
+    
+    box-shadow: 0 0 40px 0 #4b6e94;
+    box-shadow: 0 0 40px 0 #204d7e;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.cards1 img{
+    position: absolute;
+    margin: 0 auto;
+    width: 100%;
+    height: 300px;
+    padding: 40px;
+
+}
+
+.card1{
+    font-size: 1rem;    
+    text-align: center;
+    transform: translatey(100px);
+    opacity: 0;
+    transition: 0.5s;
+    
+}
+
+
+.card1:hover{
+    transform: translateY(0px);
+    opacity: 1;
+
+}
+
+.card1 h2{
+    position: absolute;
+    top:-80px;
+    right: 10px;
+    font-size: 8em;
+    color: #204d7e65;
+    height: 100%;
+    pointer-events: none;
+}
+
+
+.card1 h1{
+    margin: 20px;
+    color: #063261;
+}
+
+.card1 p{
+
+    width: 100%;
+    height: 100%;
+    font-size: 1rem;
+    margin: 10px;
+    
+    color: #204d7e;
+}
+
+.card1 a{
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    background-color: grey;
+    padding: 15px 20px;
+    border-radius: 40px;
+    text-decoration: none;
+    
+
+}
+
+
+
+
+
 h5{/*Sobre*/
     text-align: center;
     margin-top: 50px;
