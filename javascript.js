@@ -1,4 +1,4 @@
-
+/*
 
 let slides = document.querySelectorAll('.slideshow');
         let dots = document.querySelectorAll('.dot');
@@ -60,6 +60,29 @@ let slides = document.querySelectorAll('.slideshow');
         }
 
         autoSlides();
+
+*/
+
+var swiper = new Swiper(".swiper", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: 3,
+    speed: 600,
+    coverflowEffect: {
+    
+      rotate: 20,
+      stretch: 1,
+      depth: 100,
+      modifier: 1,
+      slideShadows: true,
+    },
+    loop: true, 
+  });
+  
+
+
+
 
 
 

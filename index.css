@@ -25,8 +25,8 @@ body{
 .container{
     background-image: linear-gradient(to left, #0c06068f, #140F2E,#0c06068f);
     margin: auto;
-    max-width: 1140px;
-    box-shadow: 0 0 40px 0 #4b6e94;
+    max-width: 1440px;
+   
     height: 100%;
     position: relative;  
     
@@ -38,7 +38,7 @@ nav{
     align-items: center;
     background: black;
     position: fixed;
-    width: 1140px;
+    width: 1440px;
     height: 80px;
     z-index: 1;
 }
@@ -98,7 +98,7 @@ nav a:hover{
     box-shadow: 0 0 40px 0 #204d7e;
     border-radius: 50%;
     transition: 0.3s;  
-    border: 2px solid #dbdbdc;
+    
 
 }
 
@@ -119,10 +119,49 @@ h1{
 .sobre{
     padding: 40px;
     padding-bottom: 160px;
+    margin-top: 150px;
 
 }
 
 
+
+.swiper{
+    
+    border-radius: 20px;
+    width: 95%;
+    height: 610px;
+    margin-bottom: 350px;
+    
+
+}
+
+.swiper .swiper-slide {
+    
+    background-position: center;
+    background-size: cover;
+    width: 95%;
+    height: 550px;
+    box-shadow: 0 0 20px 0 #1c71c5;
+    border-radius: 10px;
+    margin: 20px;
+    margin-bottom: 350px;
+    overflow: hidden;
+   
+  }
+
+
+h4{/*Sobre*/
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    background-color: #05529e63;
+    margin-bottom: 250px;
+    border-radius:20px;
+    padding: 15px;
+    
+}
 
 
 
@@ -149,18 +188,7 @@ h5{/*Sobre*/
 
 
 
-h4{/*Sobre*/
-    font-size: 2rem;
-    font-weight: 300;
-    text-align: center;
-    width: 90%;
-    margin: 0 auto;
-    background-color: #05529e63;
-    margin-bottom: 140px;
-    border-radius: 30px;
-    padding: 15px;
-    
-}
+
 
 .etapas{
     display: flex;
@@ -208,6 +236,11 @@ h4{/*Sobre*/
 }
 
 
+
+
+  
+
+/*
 
 .slideshow-container {
     
@@ -299,11 +332,14 @@ h4{/*Sobre*/
     animation-duration: 2s;
 }
 
+
+
+*/
 h6{
     text-align: center;
-    margin-top: 350px;
+    margin-top: 450px;
     font-weight: 300;
-    margin-bottom: 10px;
+    margin-bottom: 60px;
     font-size: 2rem;
     text-align: center;
 }
